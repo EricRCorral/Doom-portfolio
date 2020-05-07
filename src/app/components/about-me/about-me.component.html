@@ -1,0 +1,21 @@
+<div class="bg-about">
+
+    <img class="m-2" src="../../../assets/images/menu/menu-0.png">
+
+    <div class="bg-eric ml-2">
+
+        <img class="mask" (click)="showFace()" *ngIf="show" src="../../../assets/images/about-me/mask.png" title="Shoot me !">
+
+    </div>
+
+    <div [ngSwitch]='selection'>
+
+        <div class="row m-0 justify-content-between" *ngFor="let item of items; let i=index">
+
+            <img class="text-about ml-2" [src]="itemSrc + i + '.png'">
+            <img *ngSwitchCase='i' class="select mr-3" src="../../../assets/images/select.png">
+
+        </div>
+
+    </div>
+</div>

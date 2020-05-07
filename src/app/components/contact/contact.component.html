@@ -1,0 +1,20 @@
+<div class="bg-contact">
+
+    <div class="row m-0 justify-content-center pt-3">
+        <img src="../../../assets/images/menu/menu-2.png">
+    </div>
+
+
+    <div [ngSwitch]='selection'>
+
+        <div *ngFor="let item of items; let i=index">
+
+            <div class="row m-0">
+                <img class="mt-4 ml-2" [src]="itemSrc + i + '.png'">
+                <img class="ml-auto pr-3" *ngSwitchCase='i' src="../../../assets/images/menu/menu-skull.png">
+            </div>
+        </div>
+    </div>
+
+
+</div>

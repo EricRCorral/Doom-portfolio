@@ -1,0 +1,10 @@
+.bg-music {
+    height: 85%;
+    background-image: url(../../../assets/images/music/bg-doomguy-2.png);
+    background-size: 100% 100%;
+}
+
+.select,
+.text-music {
+    margin-top: .9%;
+}

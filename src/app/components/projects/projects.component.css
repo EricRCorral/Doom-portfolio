@@ -1,0 +1,15 @@
+.bg-projects {
+    height: 85%;
+    background-image: url(../../../assets/images/projects/bg-daisy.png);
+    background-size: 100% 100%;
+}
+
+.text-about {
+    max-width: 95%;
+    margin-top: 1%;
+}
+
+.select {
+    margin-top: 1%;
+    height: 100%;
+}

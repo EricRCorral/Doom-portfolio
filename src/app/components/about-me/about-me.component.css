@@ -1,0 +1,35 @@
+.bg-about {
+    height: 85%;
+    background-image: url(../../../assets/images/about-me/bg-doom-intermission.png);
+    background-size: 100% 100%;
+}
+
+.bg-eric {
+    background-image: url(../../../assets/images/about-me/eric.jpg);
+    width: 15%;
+    height: 30%;
+    background-size: 100% 100%;
+    border-radius: 25%;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: inset 0px 0px 30px 5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0px 0px 30px 5px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 0px 30px 5px rgba(0, 0, 0, 0.75);
+}
+
+.mask {
+    padding-left: 23%;
+    padding-top: 2%;
+}
+
+.mask:hover {
+    cursor: pointer;
+}
+
+.text-about {
+    max-width: 95%;
+    margin-top: 1%;
+}
+
+.select {
+    margin-top: 1%;
+}

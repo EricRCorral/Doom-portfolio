@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DoomService } from './service/doom.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'portfoliov2';
+
+  constructor(private doomService: DoomService) {
+
+  }
+
+ takeDamage() {
+   this.doomService.takeDamageService();
+ }
+
+ openHyperlink() {
+
+  this.doomService.hyperlink.play();
+ }
+
 }

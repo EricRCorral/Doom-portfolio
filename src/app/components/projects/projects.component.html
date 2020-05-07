@@ -1,0 +1,16 @@
+<div class="bg-projects">
+
+    <img class="m-2" src="../../../assets/images/menu/menu-1.png">
+
+    <div [ngSwitch]='selection'>
+
+        <div class="row m-0 justify-content-between align-items-center" *ngFor="let item of items; let i=index">
+
+            <img class="text-about ml-2" [src]="itemSrc + i + '.png'">
+            <img *ngSwitchCase='i' class="select mr-3" src="../../../assets/images/select.png">
+
+        </div>
+
+    </div>
+
+</div>

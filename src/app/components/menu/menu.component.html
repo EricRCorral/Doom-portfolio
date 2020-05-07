@@ -1,0 +1,16 @@
+<div class="bg-menu">
+
+    <img class="title" src="../../../assets/images/menu/Eric.png">
+
+    <div id="menu" [ngSwitch]='selection'>
+
+        <div *ngFor="let item of items; let i=index">
+
+            <div>
+                <img *ngSwitchCase='i' class="skull" src="../../../assets/images/menu/menu-skull.png">
+                <img [ngClass]="{'menu-option': selection !== i}" [src]="itemSrc + i + '.png'">
+            </div>
+
+        </div>
+    </div>
+</div>

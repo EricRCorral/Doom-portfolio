@@ -1,0 +1,93 @@
+.hud {
+    height: 15%;
+    display: flex;
+}
+
+.hud-ammo {
+    width: 14.79%;
+    background-image: url(../assets/images/hud/bg-ammo.png);
+}
+
+.hud-health {
+    width: 18.45%;
+    background-image: url(../assets/images/hud/bg-health.png);
+}
+
+.health {
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+.fab {
+    color: rgb(255, 255, 121);
+    font-size: 19px;
+    text-shadow: 3px 3px 0px rgb(66, 30, 19);
+}
+
+.hud-arms {
+    width: 11.49%;
+    background-image: url(../assets/images/hud/bg-arms.png);
+    padding-top: 0.8%;
+}
+
+.margin-icons {
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+.arms-margin {
+    margin-bottom: 7%;
+}
+
+.hud-doomguy {
+    width: 10.91%;
+    background-image: url(../assets/images/hud/bg-doomguy.png);
+}
+
+#doomguy {
+    padding-top: 5%;
+    padding-left: 20%;
+    cursor: pointer;
+}
+
+.hud-armor {
+    width: 17.86%;
+    background-image: url(../assets/images/hud/bg-armor.png);
+}
+
+.hud-keys {
+    width: 4.76%;
+    background-image: url(../assets/images/hud/bg-keys.png);
+}
+
+.keys-position {
+    padding-top: 13.4%;
+}
+
+.efset {
+    padding-left: 35%;
+    font-style: oblique;
+    color: rgb(12, 0, 122);
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+}
+
+.udemy {
+    padding-left: 35%;
+    font-family: 'Pacifico', cursive;
+    color: rgb(177, 177, 0);
+    text-decoration: none;
+}
+
+.github {
+    padding-left: 35%;
+    text-decoration: none;
+    color: red;
+    text-shadow: none;
+}
+
+.hud-type-ammo {
+    width: 21.74%;
+    background-image: url(../assets/images/hud/bg-ammo-types.png);
+}

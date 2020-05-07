@@ -1,0 +1,16 @@
+<div class="bg-music">
+
+    <img class="mt-2 ml-2" src="../../../assets/images/menu/menu-3.png">
+
+    <div [ngSwitch]='selection'>
+
+        <div class="row m-0" *ngFor="let item of items; let i=index">
+
+            <img class="text-music ml-2" [src]="itemSrc + i + '.png'">
+            <img *ngSwitchCase='i' class="select ml-3" src="../../../assets/images/select.png">
+
+        </div>
+
+    </div>
+
+</div>
